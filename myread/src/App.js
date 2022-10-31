@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './Navbar';
-
+import Navbar from './components/Header';
+import AddButton from './components/AddButton';
 function App() {
   return (
     
     <div className="App">
       <Navbar />
+      <AddButton />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -21,6 +22,7 @@ function App() {
           Learn React
         </a>
       </header>
+    
     </div>
   );
 }

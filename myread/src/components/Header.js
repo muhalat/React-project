@@ -1,9 +1,9 @@
 
 const Navbar = () => {
     return ( 
-        <div className="navbar">
+        
             <nav className="navbar">
-            <h2>The Dojo Blog</h2>
+            <h2>My Personal Library</h2>
             <div className="links">
                 {/* <Link to="/">Home</Link>
                 <Link to="/Create" style={{
@@ -13,7 +13,7 @@ const Navbar = () => {
                 }}>New Blog</Link> */}
             </div>
         </nav>
-        </div>
+        
      );
 }
  
